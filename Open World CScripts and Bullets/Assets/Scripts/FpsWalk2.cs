@@ -5,7 +5,7 @@ using UnityEngine;
 public class FpsWalk2 : MonoBehaviour
 {
     public CharacterController chtr;
-    Vector3 move, rot;
+    public Vector3 move, rot;
     void Start()
     {
         //Caso você queira não arrastar ou esquecer ele fara isso, mas deixa também a opção de você arrastar tranquilamente, só fara se não houver nada na variavel.
@@ -26,8 +26,10 @@ public class FpsWalk2 : MonoBehaviour
         Vector3 globalmove = transform.TransformDirection(move);
         chtr.SimpleMove(globalmove * 5);
         transform.Rotate(rot);
-
+        
     }
+
+    
     //void Update()
     //{
     //Para ler que esta andando para frente e usando a tecla W. Se ele clicar W. Move final é para zerar o vetor de movimento

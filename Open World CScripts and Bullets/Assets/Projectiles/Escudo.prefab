@@ -106,7 +106,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8933654b94d583c4f8bb48911ccd1860, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myOwner: {fileID: 0}
+  myOwner: {fileID: 3961942543497814534, guid: 82d068c746d3684418e6270feb226d6b, type: 3}
   duration: 3
 --- !u!54 &4377849471284977713
 Rigidbody:

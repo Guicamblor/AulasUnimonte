@@ -8,6 +8,7 @@ public class IAControl : MonoBehaviour
     Vector3 move;
     public GameObject player;
     float myrot;
+    
     void Start()
     {
         if (!chtr)
@@ -35,8 +36,8 @@ public class IAControl : MonoBehaviour
         {
             myrot = Mathf.LerpAngle(myrot, Vector3.SignedAngle(-transform.right, l1, Vector3.up), Time.deltaTime * 10);
         }
-       
 
+        
 
         //conversao de direcao local pra global 
         Vector3 globalmove = transform.TransformDirection(move);
@@ -44,4 +45,6 @@ public class IAControl : MonoBehaviour
         transform.Rotate(new Vector3(0,myrot,0));
        
     }
+
+    
 }

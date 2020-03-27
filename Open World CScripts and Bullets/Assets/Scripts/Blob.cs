@@ -11,13 +11,6 @@ public class Blob : MonoBehaviour
         rdb = GetComponent<Rigidbody>();
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
-
     private void OnCollisionEnter(Collision collision)
     {
         print("bati");
