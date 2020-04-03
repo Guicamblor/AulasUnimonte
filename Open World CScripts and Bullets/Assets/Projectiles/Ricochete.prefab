@@ -13,6 +13,8 @@ GameObject:
   - component: {fileID: 4415409172054042738}
   - component: {fileID: 6230328837915829200}
   - component: {fileID: 715821116507158836}
+  - component: {fileID: 7565635634172941362}
+  - component: {fileID: 62763344310719062}
   m_Layer: 0
   m_Name: Ricochete
   m_TagString: Untagged
@@ -109,3 +111,30 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &7565635634172941362
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8176808075378907793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd3baad8121eec342b20a46ff163f271, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fxPrefab: {fileID: 5034899409673856290, guid: 317bfcbf895f011479db50504d92eb26,
+    type: 3}
+--- !u!114 &62763344310719062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8176808075378907793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b4856ee3c78563438528d4e27417069, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  time: 3
