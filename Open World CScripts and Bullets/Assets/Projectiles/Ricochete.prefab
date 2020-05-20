@@ -125,6 +125,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fxPrefab: {fileID: 5034899409673856290, guid: 317bfcbf895f011479db50504d92eb26,
     type: 3}
+  time: 0.2
 --- !u!114 &62763344310719062
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -137,4 +138,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b4856ee3c78563438528d4e27417069, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  time: 3
+  time: 1

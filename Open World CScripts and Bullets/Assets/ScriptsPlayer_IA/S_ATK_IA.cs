@@ -5,34 +5,23 @@ using UnityEngine;
 public class S_ATK_IA : MonoBehaviour
 {
     public GameObject player;
-    public bool Atack;
     public GameObject bullet;
     public GameObject lugarBullet;
 
-    void Update()
-    {
-      Atacar();
-    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Player")
-        {
-            Atack = true;
-        }
+            InvokeRepeating("Atacar", 0f, 3f);
     }
     private void OnTriggerExit(Collider other)
     {
         if (other.tag == "Player")
-            Atack = false;
+            CancelInvoke("Atacar");
     }
 
     void Atacar()
     {
-        if (Atack == true)
-        {
             Instantiate(bullet, lugarBullet.transform.position, lugarBullet.transform.rotation);
             bullet.GetComponent<Rigidbody>().AddForce(transform.forward * 10000);
-        }
     }
-    
 }

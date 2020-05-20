@@ -29,8 +29,8 @@ public class IATIRO : MonoBehaviour
     {
         if(atacando == true)
         {
-            Instantiate(bullet, transform.position + transform.forward, Quaternion.identity);
-            bullet.GetComponent<Rigidbody>().AddForce(transform.forward * 1000);
+            Instantiate(bullet, transform.position + transform.forward, transform.rotation);
+            bullet.GetComponent<Rigidbody>().AddForce(transform.forward * 10000);
         }
     }
 

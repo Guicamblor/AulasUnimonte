@@ -78,7 +78,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 3961942543497814534, guid: 82d068c746d3684418e6270feb226d6b, type: 3}
   segundos: 0.2
-  fxPrefab: {fileID: 0}
+  fxPrefab: {fileID: 4311602071956935811, guid: 3eb3b015340f32d428642c1ffd970b06,
+    type: 3}
 --- !u!136 &8713680270027185734
 CapsuleCollider:
   m_ObjectHideFlags: 0
