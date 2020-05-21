@@ -26,13 +26,8 @@ public class MaquinaDeEstado : MonoBehaviour
     void Awake()
     {
         controlador = GetComponent<ControladorNavMesh>();
-        AtivarEstados(EstadoInicial);
+        AtivarEstados(EstadoAtual = EstadoInicial);
     }
-    void Start()
-    {
-        
-    }
-
     void Update()
     {
         //Estado Patrulha
@@ -40,7 +35,7 @@ public class MaquinaDeEstado : MonoBehaviour
         if(VeOJogador(out hit))
         {
             controlador.target = hit.transform;
-            AtivarEstados(EstadoPerseguicao = true);
+            AtivarEstados(EstadoAtual = EstadoPerseguicao);
             return;
         }
 
@@ -97,7 +92,7 @@ public class MaquinaDeEstado : MonoBehaviour
     {
         if (other.gameObject.CompareTag("Player"))
         {
-            AtivarEstados(EstadoAlerta = true);
+            AtivarEstados(EstadoAtual = EstadoAlerta);
         }
     }
     // --------------------------
