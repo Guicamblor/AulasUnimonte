@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 1450842605593563958}
   - component: {fileID: 7982008240173353612}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: Controladordotempo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -43,5 +43,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4d477a9888c0d9d44833c460ade5a0a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  slowdownFactor: 0.05
+  slowdownFactor: 1
   slowdownLength: 2
