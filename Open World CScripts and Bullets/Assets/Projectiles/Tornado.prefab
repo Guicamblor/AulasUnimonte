@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 7619404272872405521}
   m_Layer: 0
   m_Name: Tornado
-  m_TagString: Untagged
+  m_TagString: Balas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -110,6 +110,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 04a0d18623546c1479338d816745a484, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  bombForce: -2000
 --- !u!136 &7619404272872405521
 CapsuleCollider:
   m_ObjectHideFlags: 0

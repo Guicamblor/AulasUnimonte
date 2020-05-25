@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: -2857471092639159974}
   m_Layer: 0
   m_Name: EscudoMudaCor
-  m_TagString: Untagged
+  m_TagString: Balas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

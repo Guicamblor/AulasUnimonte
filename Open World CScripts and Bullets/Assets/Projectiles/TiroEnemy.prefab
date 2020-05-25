@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8713680270027185734}
   m_Layer: 0
   m_Name: TiroEnemy
-  m_TagString: Untagged
+  m_TagString: Balas
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
