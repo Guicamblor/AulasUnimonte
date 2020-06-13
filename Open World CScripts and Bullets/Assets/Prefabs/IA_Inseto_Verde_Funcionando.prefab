@@ -104,10 +104,10 @@ GameObject:
   - component: {fileID: 6368290687551030503}
   - component: {fileID: 6368290687551030500}
   - component: {fileID: 959809640435455312}
-  - component: {fileID: 5721358075503439273}
   - component: {fileID: 37043915134545954}
   - component: {fileID: 6368290687551030488}
   - component: {fileID: 88503855937690571}
+  - component: {fileID: 2350170046257736036}
   m_Layer: 0
   m_Name: IA_Inseto_Verde_Funcionando
   m_TagString: Untagged
@@ -201,20 +201,6 @@ NavMeshAgent:
   m_BaseOffset: 1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
---- !u!136 &5721358075503439273
-CapsuleCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6368290687551030491}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  m_Radius: 2.76
-  m_Height: 2
-  m_Direction: 1
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!114 &37043915134545954
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -259,6 +245,19 @@ MonoBehaviour:
   vida: 100
   agent: {fileID: 959809640435455312}
   estado: 2
+--- !u!65 &2350170046257736036
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6368290687551030491}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2.2097168, y: 1.9801693, z: 3.7037048}
+  m_Center: {x: -0.04957962, y: -0.009915352, z: 0.5189667}
 --- !u!1 &6368290687657145588
 GameObject:
   m_ObjectHideFlags: 0

@@ -229,9 +229,12 @@ MonoBehaviour:
   - {fileID: 2878726855493399509, guid: 31921f94c3330a54596d4fd36214e3c5, type: 3}
   - {fileID: 7866717348386482725, guid: 604788f53c0f85d47aad036d165e673d, type: 3}
   - {fileID: 2489412830364841591, guid: 846af8db75109e44099b0d1cc49c63d4, type: 3}
-  - {fileID: 7866717348386482725, guid: 604788f53c0f85d47aad036d165e673d, type: 3}
+  - {fileID: 6997034188546784892, guid: 28d7c321a93d58e4cb2cf6ec3729b1aa, type: 3}
   - {fileID: 6593626907365339735, guid: f025698a29cf8d94fb23021fe6fc4aca, type: 3}
-  - {fileID: 4244077684499924574, guid: 4831646d9b56f5e4ca79c6902ea57086, type: 3}
+  - {fileID: 5499828984622100563, guid: 1bb87534ec98c4d4b9fbe1769dd9eb0b, type: 3}
   - {fileID: 8176808075378907793, guid: c48b9be959d65cb4d920fa86eb95d11f, type: 3}
+  - {fileID: 5499828984622100563, guid: 1bb87534ec98c4d4b9fbe1769dd9eb0b, type: 3}
+  - {fileID: 5499828984622100563, guid: 1bb87534ec98c4d4b9fbe1769dd9eb0b, type: 3}
   shield: {fileID: 6583778060825934739, guid: 85b67585c272c4b4490233055d14be1b, type: 3}
-  fxPrefab: {fileID: 0}
+  fxPrefab: {fileID: 3944688495794113139, guid: 0f8cd484bdbbca041bdab066525fc28f,
+    type: 3}

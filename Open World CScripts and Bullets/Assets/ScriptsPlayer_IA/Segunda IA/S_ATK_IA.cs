@@ -33,7 +33,15 @@ public class S_ATK_IA : MonoBehaviour
     {
         if (other.gameObject.tag == "Player")
             Invoke("EstadoAtaque", 0.5f);
-        
+
+        if (other.gameObject.tag == "Arma")
+        {
+            vida -= 10;
+            if (vida == 0)
+            {
+                estado = Estados.morte;
+            }
+        }
     }
     public enum Estados
     {
