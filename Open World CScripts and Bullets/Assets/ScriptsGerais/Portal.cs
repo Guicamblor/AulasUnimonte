@@ -47,6 +47,5 @@ public class Portal : MonoBehaviour
         fade.IniciarTransicao(transparente, Color.black);
         yield return new WaitUntil(() => fade.acabou);
         SceneManager.LoadScene(cena);
-
     }
 }

@@ -108,7 +108,7 @@ public class Mov3d : MonoBehaviour
         if (Input.GetButtonDown("Fire2"))
         {
             Instantiate(Bala, LocalBala.transform.position, LocalBala.transform.rotation);
-            Bala.GetComponent<Rigidbody>().AddForce(transform.forward * 1000);
+            Bala.GetComponent<Rigidbody>().AddForce(transform.forward * 10000);
         }
 
     }

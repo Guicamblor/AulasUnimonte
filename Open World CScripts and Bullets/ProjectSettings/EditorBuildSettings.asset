@@ -8,4 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Principal.unity
     guid: 04d5cbe22747e604b805d15f3fd81cf5
+  - enabled: 1
+    path: Assets/Scenes/Shrine 1.unity
+    guid: 261b6e63d9e15974db4179c43b05f92d
+  - enabled: 1
+    path: Assets/Scenes/Shrine 2.unity
+    guid: a80e110f6689db34b8656f54602540b6
+  - enabled: 1
+    path: Assets/Scenes/Shrine 3.unity
+    guid: a14a18ceab89eec4b835c8eed9e03121
   m_configObjects: {}
