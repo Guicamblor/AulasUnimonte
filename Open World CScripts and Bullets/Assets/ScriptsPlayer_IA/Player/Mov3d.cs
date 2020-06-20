@@ -22,6 +22,13 @@ public class Mov3d : MonoBehaviour
     Transform T;
     Transform camera;
 
+    ControladorSom controleSom;
+
+    private void Awake()
+    {
+        controleSom = GameObject.FindWithTag("MainCamera").GetComponent<ControladorSom>();
+    }
+
     private void Start()
     {
         T = GetComponent<Transform>();
@@ -108,7 +115,8 @@ public class Mov3d : MonoBehaviour
         if (Input.GetButtonDown("Fire2"))
         {
             Instantiate(Bala, LocalBala.transform.position, LocalBala.transform.rotation);
-            Bala.GetComponent<Rigidbody>().AddForce(transform.forward * 10000);
+            Bala.GetComponent<Rigidbody>().AddForce(transform.forward * 3 * 10000);
+            controleSom.Ouvir(ControladorSom.Toques.Explosao);
         }
 
     }

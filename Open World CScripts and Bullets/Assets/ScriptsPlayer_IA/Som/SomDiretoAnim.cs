@@ -12,12 +12,12 @@ public class SomDiretoAnim : MonoBehaviour
         controleSom = GameObject.FindWithTag("MainCamera").GetComponent<ControladorSom>();
     }
 
-    public void AnimEvent_Ouvir_Walk()
+    public void AnimEvent_Walk()
     {
-        controleSom.Ouvir(ControladorSom.Som.Andar);
+        controleSom.Ouvir(ControladorSom.Toques.Andar);
     }
     public void AnimEvent_Ouvir_Hit()
     {
-        controleSom.Ouvir(ControladorSom.Som.Atack);
+        controleSom.Ouvir(ControladorSom.Toques.Atack);
     }
 }

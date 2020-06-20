@@ -6,24 +6,25 @@ using UnityEngine;
 public class ControladorSom : MonoBehaviour
 {
     //colocar esse script na camera
-    public enum Som
+    public enum Toques
     {
-        Andar = 0,
+        Andar,
         Explosao,
         Atack,
-        DanoIa,
+        DanoIa
     }
     public GameObject SomPrefab;
     public AudioClip[] Sons;
 
-    public void Ouvir(Som efeitoS)
+    public void Ouvir(Toques efeitoS)
     {
         GameObject novoSom = Instantiate<GameObject>(SomPrefab, transform.position, Quaternion.identity);
         Som novoSom_Compo = novoSom.GetComponent<Som>();
 
         int numeroDoSom = (int)efeitoS;
         AudioClip EfeitoSonoro = Sons[numeroDoSom];
-        //novoSom_Compo.arquivo = EfeitoSonoro;
+
+        novoSom_Compo.arquivo = EfeitoSonoro;
     }
     /*Controlador SDS
 void Awake(){

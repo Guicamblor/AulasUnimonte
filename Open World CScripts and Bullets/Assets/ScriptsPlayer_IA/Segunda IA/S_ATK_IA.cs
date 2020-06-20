@@ -9,6 +9,12 @@ public class S_ATK_IA : MonoBehaviour
     public Animator anim;
     public int vida = 100;
     public NavMeshAgent agent;
+    ControladorSom controleSom;
+
+    private void Awake()
+    {
+        controleSom = GameObject.FindWithTag("MainCamera").GetComponent<ControladorSom>();
+    }
     void Update()
     {
         StartandoEstados();
@@ -21,6 +27,7 @@ public class S_ATK_IA : MonoBehaviour
         {
             estado = Estados.damage;
             vida -= 10;
+            controleSom.Ouvir(ControladorSom.Toques.DanoIa);
             if (vida == 0)
             {
                 estado = Estados.morte;

@@ -5041,5 +5041,10 @@ PrefabInstance:
       propertyPath: Retorno
       value: 
       objectReference: {fileID: 1916353157}
+    - target: {fileID: 7541949138335261060, guid: 7219017e5092fbb41b203d2cfdac9689,
+        type: 3}
+      propertyPath: AtivarRetornar
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 7219017e5092fbb41b203d2cfdac9689, type: 3}

@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Som : MonoBehaviour
 {
-    public AudioClip arquivo;
     AudioSource As;
+    public AudioClip arquivo;
 
     private void Awake()
     {
