@@ -114,8 +114,8 @@ public class Mov3d : MonoBehaviour
         }
         if (Input.GetButtonDown("Fire2"))
         {
-            Instantiate(Bala, LocalBala.transform.position, LocalBala.transform.rotation);
-            Bala.GetComponent<Rigidbody>().AddForce(transform.forward * 3 * 10000);
+            Instantiate(Bala, LocalBala.transform.position + transform.forward, LocalBala.transform.rotation);
+            Bala.GetComponent<Rigidbody>().AddForce(transform.forward * 3 * 100);
             controleSom.Ouvir(ControladorSom.Toques.Explosao);
         }
 

@@ -499,8 +499,7 @@ PrefabInstance:
         type: 3}
       propertyPath: player
       value: 
-      objectReference: {fileID: 1426420924295334803, guid: 0f36f4544d95d1f41a20ec135d0f5232,
-        type: 3}
+      objectReference: {fileID: 1381411694}
     - target: {fileID: 6368290687551030491, guid: 1c0eae7bfc645ec44945058e2caf7b2b,
         type: 3}
       propertyPath: m_Name
@@ -2602,7 +2601,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d561344c98b6c504fad3f6caa2341274, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1426420924295334803, guid: 0f36f4544d95d1f41a20ec135d0f5232, type: 3}
+  player: {fileID: 1381411694}
 --- !u!4 &927956218
 Transform:
   m_ObjectHideFlags: 0
@@ -3247,7 +3246,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 6e-45}
   m_UseBoundingSphereOverride: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
